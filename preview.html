@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	
+	<head>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/printstyle.css">
+		<script type = "text/javascript" language = "javascript" src = "js/sidebar.js"></script>
+		<script type = "text/javascript" language = "javascript" src = "js/preview.js"></script>
+		<title>
+			Preview
+		</title>
+	</head>
+	
+	<body onload = "showSlide(0)">
+
+		<div class = "wrapper">
+		
+			<div class = "header">
+				<img id = "headerImg" src = "images/header.png">
+			</div>
+			
+			<div class = "nav">
+				<ul>
+					<a href = "index.html"><li>Home</li></a>
+					<a href = "catalog.html"><li>Catalog</li></a>
+					<a href = "order.html"><li>Order Books</li></a>
+					<a href = "slideshow.html"><li>Preview</li></a>
+					<a href = "report.html"><li>Report</li></a>
+				</ul>
+			</div>
+			
+			<div class = "stretcher">
+			 
+				<div class = "content">
+				
+					<h1>
+						Preview
+					</h1>
+					<p>
+						Here, you can get a preview of the book contents. Choose a thumbnail below
+						to view the title, author and description.
+					</p>
+					
+					<!-- slide show box here, javascript needed -->
+					<div id = "slideshow">
+						
+						<!-- slide show thumbnails here, java script needed-->
+						<div id = "thumbnails"></div>
+					
+						<div id = "images"></div>
+						
+						<a id = "prev" onclick = "changeSlide(-1)">&#10096;</a>
+						<a id = "next" onclick = "changeSlide(1)">&#10097;</a>
+						
+						<div id = "text"></div>
+						
+					</div><br>
+					
+				</div>
+				
+				<div class = "sidebar">
+				
+					<h2>
+						Featured Books
+					</h2>
+					
+					<div id = "bookWeek"></div>
+					
+					<div id = "bookBest"></div>
+					
+					<div id = "bookNew"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div class = "footer">
+			
+				<h6>&copy 2017 Arnold Cantero</h6>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+
+</html>

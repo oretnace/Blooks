@@ -1,0 +1,446 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/printstyle.css">
+		<script type = "text/javascript" language = "javascript" src = "js/sidebar.js"></script>
+		<title>
+			Report
+		</title>
+	</head>
+	
+	<body>
+
+		<div class = "wrapper">
+		
+			<div class = "header">
+				<img id = "headerImg" src = "images/header.png">
+			</div>
+			
+			<div class = "nav">
+				<ul>
+					<a href = "index.html"><li>Home</li></a>
+					<a href = "catalog.html"><li>Catalog</li></a>
+					<a href = "order.html"><li>Order Books</li></a>
+					<a href = "preview.html"><li>Preview</li></a>
+					<a href = "report.html"><li>Report</li></a>
+				</ul>
+			</div>
+			
+			<div class = "stretcher">
+			 
+				<div class = "content">
+					
+					<h1>
+						Report
+					</h1>
+					
+					<p>
+						This website was written by Arnold Cantero using Notepad++ with 
+						Chrome browser for visual testing.
+					</p>
+					
+					<p>
+						The following list items were notes I recorded as I was building this website.
+						Please pardon theinformality and improper spelling and grammar at times, I 
+						wanted to get ideas and thoughts down as quick as possible. Hopefully you can make
+						sense of what I have written.
+					</p>
+					
+					<h3>
+						BEWARE - MUST HAVEs
+					</h3>
+					<ul>
+						<li>
+							Code must not be changed for website to work,
+							otherwise syntax errors etc.
+						</li>
+						<li>
+							Locations of all files must not be moved.
+						</li>
+						<li>
+							All pages need in header:
+							<ul>
+								<li>meta name viewport</li>
+								<li>main css file link</li>
+								<li>sidebar javascript link</li>
+							</ul>
+						</li>
+						<li>
+							Content column must be longer than sidebar - but don't worry, 
+							this is already written in the CSS.
+						</li>
+						<li>
+							Need to make sure inputs in form have name if i want to pass 
+							them
+						</li>
+					</ul>
+					
+					<h3>
+						CHOICES MADE
+					</h3>
+					<ul>
+						<li>
+							Purpose of the site is to sell books related to the colour 
+							blue, just from the idea of wordplay: blue + books. Also because 
+							blue is a calm, soothing colour and a personal preference.
+						</li>
+						<li>
+							Written on the go using Notedpad++ and Chrome browser, with the 
+							aid of previous lab work and w3schools tutorials. Not sure of any 
+							other methods to write the website from scratch, I'd be wasting 
+							time if I spent time to research alternative software.
+						</li>
+						<li>
+							Single CSS file as all pages share the same layout and themes. 
+							There would be too many files if each page had their own CSS file.
+						</li>
+						<li>
+							Entity name used for copyright (Footer) and arrows symbol 
+							(Slide show), just to give it a try. It might be fun.
+						</li>
+							Rounded corners at top of header, bottom of footer, hovers, catalog 
+							table, slide show to make the site look smoother.
+						<li>
+							XML Page is renamed 'Catalog', and Order Forms to 'Order Books' 
+							so it's easier to understand for the user.
+						</li>
+							In Catalog and Slide show pages, XML is displayed through the HTML 
+							output from JavaScript using a for loop through all books in the XML file.
+						<li>
+							In Order Form, method = "post" should be used to protect sensitive data.
+						</li>
+							Required fields are orange as it complements the site's blue colour 
+							scheme, grabs user's attention.
+						<li>
+							When selecting country in order form, i didn't want to include the entire 
+							list of all countries so i gave user the option to type theirs in.
+						</li>
+						<li>
+							More white space in background in print-friendly version to save ink. Borders.
+						</li>
+					</ul>
+					
+					<h3>
+						PAST CHOICES
+					</h3>
+					<ul>
+						<li>
+							HTML5 semantic tags used: 
+							<ul>
+								<li>
+									&#60;header&#62;
+								</li>
+								<li>
+									&#60;nav&#62;
+								</li>
+								<li>
+									&#60;main&#62; - for page content
+								</li>
+								<li>
+									&#60;aside&#62; - sidebar
+								</li>
+								<li>
+									&#60;footer&#62;
+								</li>
+							</ul>
+						</li>
+					</ul>
+					
+					<h3>
+						CHANGES MADE FROM ORIGINAL PLAN
+					</h3>
+					<ul>
+						<li>
+							Site logo is now an image instead of text. Before, it was a header image under
+text in &#60;header&#62; which had a modified fill and outline colour in CSS.
+						</li>
+						<li>
+							XML Book data titles are sorted alphabetically - done it manually, not a result of code.
+So it's easier to find a book by title. I originally wanted the file to allow new books to be
+appended without having to be in order.
+						</li>
+						<li>
+							Moved JavaScript in some pages from HTML file to a separate .js document: Catalog, Slide show.
+Script was in HTML code but it looked too long so I separated it.
+						</li>
+						<li>
+							In slide show, added a scroll when text would overflow caption box so all information is retained.
+						</li>
+						<li>
+							Inactive thumbnails stay transparent, active thumbnail turns opaque, lets you know which
+thumbnail you're looking at.
+						</li>
+						<li>
+							Added whitespace: nowrap to keep two-word nav link names together in smaller screen sizes. The screen width limit has been changed so we don't risk seeing this happening, mobile
+	version screen width limit has been increased.
+						</li>
+						<li>
+							In order form, used &#60;label&#62; tag as I didn't like the appearnce of the text cursor when the cursor
+hovered over the text box names.
+						</li>
+						<li>
+							XML/Catalog page no longer uses a table to display books as I want the layout to change when the site is in mobile view. When in mobile view, the table would have a fixed width and the contents inside the 
+table wouldn't fit and go off the screen. Instead, they are now in divs so that information next to the
+book cover moves below it.
+						</li>
+						<li>
+							In form, took out the label tags next to the input texts and used the placeholder attribute instead.
+Less code for me to write and looks neater in HTML file.
+						</li>
+						<li>
+							Took out required attribute in form, javascript now displays hidden sections depending on selections and
+makes them required.
+						</li>
+						<li>
+							Took out card billing address details, too much information
+						</li>
+						
+						
+					</ul>
+					
+					<h3>
+						CHALLENGES DURING DEVELOPMENT
+					</h3>
+					<ul>
+						<li>
+							Padding and layout of elements in navigation bar. I just needed to figure out which element I
+was selecting: &#60;ul&#62;, &#60;li&#62; or &#60;a&#62;.
+						</li>
+						<li>
+							Finding specific books to suit the site's purpose then converting the information to
+XML was a bit lengthy and time consuming.
+						</li>
+						<li>
+							Struggling to make the right &#60;aside&#62; column fill any gaps and stretch down to the footer.
+						</li>
+						<li>
+							I wasted so much time trying to make a really fancy slide show with JavaScript terms I've
+never come across before from an example in w3schools when I can use a simpler example from the labs.
+						</li>
+						<li>
+							Writing the JavaScript for the slideshow was a little challenging, I needed to count the number of
+books and was struggling trying to access variables with a local scope.
+						</li>
+						<li>
+							In order form, Difficulty in trying to get value of selected option from drop down list, wanted to compare it
+against a value in javascript.
+						</li>
+						<li>
+							Centering elements was a massive pain.
+						</li>
+						<li>
+							In javascript functions, wanted to make code neater by having variable declarations outside of code as the same
+variables would be used in other variables. However, the triggering event triggers different functions and the declarations
+arent in the functions.
+						</li>
+						<li>
+							Form doesn't submit how i want to when trying to validate postcode with javascript so used html pattern instead
+						</li>
+						<li>
+							Selecting the right elements in the form with javascript
+						</li>
+						
+					</ul>
+					
+					<h3>
+						SUCCESSES
+					</h3>
+					<ul>
+						<li>
+							Feeling satisfied for incorporating aesthetic improvements like box shadows, hover transitions and
+slide show thumbnails, looks nicer. Especially how you can select a thumbnail and the active thumbnail stays opaque.
+						</li>
+						<li>
+							When testing on other browsers like Firefox, it was a good thing I used entity names as the £ sign didn't display
+correctly. But it then displayed correctly when I changed it to the entity name in the HTML code.
+						</li>
+						<li>
+							I have struggled to make the sidebar stretch all the way down to be as long as the content box
+so I re-wrote the HTML code of the main page layout. The more I messed around with the CSS, the more I got
+IDs, classes and HTML5 semantic tags confused. Some CSS stylings would work on some elements, using semantic
+tags actually made styling more confusing for me so I went back to basics and used divs instead.
+This time around, I successfully made the layout responsive and used less absolute measurements like px. The website now
+shifts to a mobile view at screen sizes of 500px and less. The page contents are then listed vertically:
+the navigation links, the content followed by the sidebar, then the footer. I did this by wrapping the content and
+sidebar divs with another div with overflow auto and had the same background colour as the sidebar to create the illusion.
+The result was a success after testing the browser window sizes with IE v11, Firefox v50 and Chrome v55.
+						</li>
+						
+					</ul>
+					
+					<h3>
+						IMPROVEMENTS THAT COULD BE MADE
+					</h3>
+					<ul>
+						<li>
+							In Catalog, sort items so that book data can be appended to the XML file that aren't in order.
+						</li>
+						<li>
+							I'd like the thumbnails in the slide show to be centralised.
+						</li>
+						<li>
+							Option to increase quantity of one kind of book in order form
+						</li>
+						<li>
+							Improve aesthetics of order form
+						</li>
+					</ul>
+					
+					<h3>
+						POSSIBLE ISSUES
+					</h3>
+					<ul>
+						<li>
+							Webkit needed for hover transitions so it shows on other browsers?
+						</li>
+						<li>
+							Although pages load in less than a few seconds, during this loading page, the layout can briefly
+look disjointed.
+						</li>
+						<li>
+							Want to use E-Mail and datalist input type in the order form even though it doesn't work on Safari. However,
+after reading up online on finding a way to validate an email input, it was suggested not to use a pattern for this.
+Instead, to use the email input type.
+						</li>
+						<li>
+							Postcode and phone number only accepts UK system
+						</li>
+						<li>
+							Phone number is optional, form validation for this field may be pointless
+						</li>
+						<li>
+							Order form total did work, totaled the delivery price + books, I promise you it did. But I fiddled with the code very
+							last minute near the deadline and it stopped working.
+						</li>
+						<li>
+							As I have struggled to select form elements with javascript, the basket in the order form is supposed to
+							show which books the user has chosen.
+						</li>
+					</ul>
+					
+				</div>
+				
+				<div class = "sidebar">
+				
+					<h2>
+						Featured Books
+					</h2>
+					
+					<div id = "bookWeek"></div>
+					
+					<div id = "bookBest"></div>
+					
+					<div id = "bookNew"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div class = "footer">
+			
+				<h6>&copy 2017 Arnold Cantero</h6>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+
+</html>
+
+<!--
+
+REPORT CONTENTS
+
+CHANGES MADE FROM ORIGINAL PLAN:
+- Site logo is now an image instead of text. Before, it was a header image under
+text in <header> which had a modified fill and outline colour in CSS.
+- XML Book data titles are sorted alphabetically - done it manually, not a result of code.
+So it's easier to find a book by title. I originally wanted the file to allow new books to be
+appended without having to be in order.
+- Moved JavaScript in some pages from HTML file to a separate .js document: Catalog, Slide show.
+Script was in HTML code but it looked too long so I separated it.
+- In slide show, added a scroll when text would overflow caption box so all information is retained.
+- Inactive thumbnails stay transparent, active thumbnail turns opaque, lets you know which
+thumbnail you're looking at.
+- Added whitespace: nowrap to keep two-word nav link names together in smaller screen sizes.
+	- EDIT: The screen width limit has been changed so we don't risk seeing this happening, mobile
+	version screen width limit has been increased.
+- In order form, used <label> tag as I didn't like the appearnce of the text cursor when the cursor
+hovered over the text box names.
+- A button will be used in the order form to progress to next sections.
+- XML/Catalog page no longer uses a table to display books as I want the layout to change when the site
+is in mobile view. When in mobile view, the table would have a fixed width and the contents inside the 
+table wouldn't fit and go off the screen. Instead, they are now in divs so that information next to the
+book cover moves below it.
+- In form, took out the label tags next to the input texts and used the placeholder attribute instead.
+Less code for me to write and looks neater in HTML file.
+- Took out required attribute in form, javascript now displays hidden sections depending on selections and
+makes them required.
+- Took out card billing address details, too much information
+
+CHALLENGES DURING DEVELOPMENT:
+- Padding and layout of elements in navigation bar. I just needed to figure out which element I
+was selecting: <ul>, <li> or <a>.
+- Finding specific books to suit the site's purpose then converting the information to
+XML was a bit lengthy and time consuming.
+- Struggling to make the right <aside> column fill any gaps and stretch down to the footer.
+- I wasted so much time trying to make a really fancy slide show with JavaScript terms I've
+never come across before from an example in w3schools when I can use a simpler example from the labs.
+- Writing the JavaScript for the slideshow was a little challenging, I needed to count the number of
+books and was struggling trying to access variables with a local scope.
+- Wanted to use new HTML input types but some browsers don't support some types.
+All allowed in IE, Firefox and Chrome:
+		- button, checkbox, color, email, file, hidden, image, number, password, radio, range, reset
+		- search, submit, text, url
+- In order form, Difficulty in trying to get value of selected option from drop down list, wanted to compare it
+against a value in javascript.
+- Centering elements was a massive pain.
+- In javascript functions, wanted to make code neater by having variable declarations outside of code as the same
+variables would be used in other variables. However, the triggering event triggers different functions and the declarations
+arent in the functions.
+- Form doesn't submit how i want to when trying to validate postcode with javascript so used html pattern instead
+
+SUCCESSES:
+- Feeling satisfied for incorporating aesthetic improvements like box shadows, hover transitions and
+slide show thumbnails, looks nicer. Especially how you can select a thumbnail and the active thumbnail stays opaque.
+- When testing on other browsers like Firefox, it was a good thing I used entity names as the £ sign didn't display
+correctly. But it then displayed correctly when I changed it to the entity name in the HTML code.
+- I have struggled to make the sidebar stretch all the way down to be as long as the content box
+so I re-wrote the HTML code of the main page layout. The more I messed around with the CSS, the more I got
+IDs, classes and HTML5 semantic tags confused. Some CSS stylings would work on some elements, using semantic
+tags actually made styling more confusing for me so I went back to basics and used divs instead.
+This time around, I successfully made the layout responsive and used less absolute measurements like px. The website now
+shifts to a mobile view at screen sizes of 500px and less. The page contents are then listed vertically:
+the navigation links, the content followed by the sidebar, then the footer. I did this by wrapping the content and
+sidebar divs with another div with overflow auto and had the same background colour as the sidebar to create the illusion.
+The result was a success after testing the browser window sizes with IE v11, Firefox v50 and Chrome v55.
+
+IMPROVEMENTS THAT COULD BE MADE:
+- In Catalog, sort items so that book data can be appended to the XML file that aren't in order.
+- I'd like the thumbnails in the slide show to be centralised.
+
+POSSIBLE ISSUES:
+- Webkit for hover transitions so it shows on other browsers?
+	- <nav> bar
+	- slideshow buttons
+	- thumbnails
+- Although pages load in less than a few seconds, during this loading page, the layout can briefly
+look disjointed.
+- Want to use E-Mail and datalist input type in the order form even though it doesn't work on Safari. However,
+after reading up online on finding a way to validate an email input, it was suggested not to use a pattern for this.
+Instead, to use the email input type.
+	- Email alternative: manually write code myself to validate email input.
+	- Datalist alternative: dropdown of countries with 'Other' option, triggering a text box.
+- Slide show in IE and Firefox doesn't start with the first book, starts empty.
+- Postcode and phone number only accepts UK system
+- Phone number is optional, form validation for this field may be pointless
+
+TRY:
+- Print friendly
+- Maybe find a way to sort XML data with code?
+- Make catalog table single column for responsiveness in mobile view
+-->

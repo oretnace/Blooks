@@ -1,0 +1,197 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<catalog>
+	<book>
+		<title>Baby Bear Sees Blue</title>
+		<author>Ashley Wolff</author>
+		<image>images/baby-bear-sees-blue.jpg</image>
+		<genre>Children's</genre>
+		<description>
+		Baby Bear has so much to learn about the world! From 
+		the moment he wakes until it’s time to curl up and 
+		go to sleep, he explores outside with his mama.
+		</description>
+		<price>13.83</price>
+		<publisher>Beach Lane Books</publisher>
+		<publicationDate>2012</publicationDate>
+	</book>
+	<book>
+		<title>Blucy: The Blue Cat</title>
+		<author>Julia Dweck</author>
+		<image>images/blucy-the-blue-cat.jpg</image>
+		<genre>Children's</genre>
+		<description>
+		Once in a blue moon, a special pet comes along. 
+		When Mandy adopts the best cat at the shelter, 
+		she doesn't realize it has a big secret and an 
+		even bigger personality.
+		</description>
+		<price>2.37</price>
+		<publisher>Xist Publishing</publisher>
+		<publicationDate>2013</publicationDate>
+	</book>
+	<book>
+		<title>Blue Exorcist, Vol. 1</title>
+		<author>Kazue Kato</author>
+		<image>images/blue-exorcist.jpg</image>
+		<genre>Manga</genre>
+		<description>
+		Raised by Father Fujimoto, a famous exorcist, 
+		Rin Okumura never knew his real father. One 
+		day a fateful argument with Father Fujimoto 
+		forces Rin to face a terrible truth – the 
+		blood of the demon lord Satan runs in Rin's veins!
+		</description>
+		<price>5.49</price>
+		<publisher>VIZ Media LLC</publisher>
+		<publicationDate>2011</publicationDate>
+	</book>
+	<book>
+		<title>Blue Is the Warmest Color</title>
+		<author>Julie Maroh</author>
+		<image>images/blue-is-the-warmest-color.jpg</image>
+		<genre>Romance</genre>
+		<description>
+		Clementine is a junior in high school who seems 
+		average enough: she has friends, family, and the 
+		romantic attention of the boys in her school. 
+		When her openly gay best friend takes her out 
+		on the town, she wanders into a lesbian bar where 
+		she encounters Emma: a punkish, confident girl 
+		with blue hair.
+		</description>
+		<price>14.18</price>
+		<publisher>Arsenal Pulp Press</publisher>
+		<publicationDate>2013</publicationDate>
+	</book>
+	<book>
+		<title>Blue is for Nightmares</title>
+		<author>Laurie Faria Stolarz</author>
+		<image>images/blue-is-for-nightmares.jpg</image>
+		<genre>Young Adult</genre>
+		<description>
+		Stacey's junior year at boarding school isn't 
+		easy. She's not the most popular girl at school, 
+		or the smartest, or the prettiest. She's got a 
+		crush on her best friend's boyfriend, and an even 
+		darker secret that threatens to ruin her friendships 
+		for good. And now she's having nightmares again. 
+		</description>
+		<price>8.04</price>
+		<publisher>Llewellyn Publications </publisher>
+		<publicationDate>2003</publicationDate>
+	</book>
+	<book>
+		<title>Blue Mythologies: Reflections on a Colour</title>
+		<author>Carol Mavor</author>
+		<image>images/blue-mythologies.jpg</image>
+		<genre>Art</genre>
+		<description>
+		The blues of Blue Mythologies include those present in 
+		the world’s religions, eggs, science, slavery, gender, 
+		sex, art, the literary past, and contemporary film.
+		</description>
+		<price>22.00</price>
+		<publisher>Reaktion Books</publisher>
+		<publicationDate>2013</publicationDate>
+	</book>
+	<book>
+		<title>Blue: The History of a Color</title>
+		<author>Michel Pastoureau</author>
+		<image>images/blue-the-history.jpg</image>
+		<genre>History</genre>
+		<description>
+		Blue has a long and topsy-turvy history in the Western 
+		world. Once considered a hot color, it is now icy cool. 
+		The ancient Greeks scorned it as ugly and barbaric, 
+		but most Americans and Europeans now pick it as 
+		their favorite color.
+		</description>
+		<price>78.92</price>
+		<publisher>Princeton University Press</publisher>
+		<publicationDate>2001</publicationDate>
+	</book>
+	<book>
+		<title>Little Blue Truck</title>
+		<author>Alice Schertle</author>
+		<image>images/little-blue-truck.jpg</image>
+		<genre>Children's</genre>
+		<description>
+		Beep! Beep! Beep! Meet Blue. A muddy country road is 
+		no match for this little pick up--that is, until 
+		he gets stuck while pushing a dump truck out of the muck.
+		</description>
+		<price>14.66</price>
+		<publisher>HMH Books for Young Readers</publisher>
+		<publicationDate>2008</publicationDate>
+	</book>
+	<book>
+		<title>
+		Out of the Blue: A book of color idioms and 
+		silly pictures
+		</title>
+		<author>Vanita Oelschlager</author>
+		<image>images/out-of-the-blue.jpg</image>
+		<genre>Children's</genre>
+		<description>
+		Out of the Blue shows children the magic of idioms – 
+		words that separately have one meaning, but together 
+		take on something entirely different.
+		</description>
+		<price>12.29</price>
+		<publisher>Vanita Books</publisher>
+		<publicationDate>2012</publicationDate>
+	</book>
+	<book>
+		<title>The Blue Fairy Book</title>
+		<author>Andrew Lang</author>
+		<image>images/the-blue-fairy-book.jpg</image>
+		<genre>Fantasy</genre>
+		<description>
+		The Blue Fairy Book was the first volume in 
+		the series and so it contains some of the 
+		best known tales, taken from a variety of 
+		sources: not only from Grimm, but exciting 
+		adventures by Charles Perrault and Madame 
+		D'Aulnoy, the Arabian Nights, and other 
+		stories from popular traditions.
+		</description>
+		<price>12.99</price>
+		<publisher>Dover Publications</publisher>
+		<publicationDate>1965</publicationDate>
+	</book>
+	<book>
+		<title>
+		The Blue Zones: Lessons for Living Longer 
+		From the People Who've Lived the Longest
+		</title>
+		<author>Dan Buettner</author>
+		<image>images/the-blue-zones.jpg</image>
+		<genre>Non-fiction</genre>
+		<description>
+		With the right lifestyle, experts say, chances are 
+		that you may live up to a decade longer. What’s the 
+		prescription for success? National Geographic 
+		Explorer Dan Buettner has traveled the globe to 
+		uncover the best strategies for longevity found in 
+		the Blue Zones: places in the world where higher 
+		percentages of people enjoy remarkably long, full lives.
+		</description>
+		<price>21.18</price>
+		<publisher>National Geographic</publisher>
+		<publicationDate>2008</publicationDate>
+	</book>
+	<book>
+		<title>The Blue</title>
+		<author>Lucy Clarke</author>
+		<image>images/the-blue.jpg</image>
+		<genre>Mystery</genre>
+		<description>
+		A group of friends. A yacht. And a 
+		disappearance-at-sea that turns 
+		paradise into a chilling nightmare. 
+		</description>
+		<price>1.45</price>
+		<publisher>Touchstone</publisher>
+		<publicationDate>2015</publicationDate>
+	</book>
+</catalog>

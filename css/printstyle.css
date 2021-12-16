@@ -1,0 +1,83 @@
+/* print friendly */
+@media only print
+{
+	.header
+	{
+		position: relative;
+		overflow: hidden;
+	}
+	#headerImg
+	{
+		display: block;
+		height: 100%;
+		position: absolute;
+		left: -55%;
+	}
+	.nav
+	{
+		border: 5px solid #6b6e72;
+	}
+	.stretcher
+	{
+		border-left: 5px solid #6b6e72;
+		border-right: 5px solid #c3d8d0;
+	}
+	.content
+	{
+		width: 67.5%;
+		border-right: 5px solid #c3d8d0;
+		min-height: 40em;
+	}
+	h2
+	{
+		margin: 1% auto;
+	}
+	#bookWeek, #bookBest, #bookNew
+	{
+		margin: 0 auto;
+	}
+	.sidebar h4
+	{
+		margin: 0 auto;
+	}
+	.featured
+	{
+		max-height: 8em;
+	}
+	.footer
+	{
+		border: 5px solid #6b6e72;
+	}
+	
+	/* ================= catalog ================= */
+	h3, h4, h5
+	{
+		margin: 1%;
+	}
+	.tagImg
+	{
+		height: 8em;
+		border: 0.4em solid #6b6e72;
+		border-radius: 5px;
+	}
+	.book
+	{
+		border: 0.4em solid #6b6e72;
+		border-radius: 5px;
+		margin: 1%;
+	}
+	
+	/* ================= preview ================= */
+	.img
+	{
+		max-height: 10em;
+	}
+	.thumb
+	{
+		max-height: 2em;
+	}
+	.caption
+	{
+		overflow: auto;
+	}
+}
